@@ -1,0 +1,92 @@
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}	
+h1{
+color:#1d05fa; 
+align:center; 
+font-family: Papyrus, fantasy;
+}	
+h2{
+	font-family:"Gill Sans Extrabold", sans-serif;
+	color:green; 
+align:center; 
+}
+.my-list {
+  list-style-type: disc; /* Remove default bullet points */
+  padding: 5px; /* Remove default padding */
+  margin:0; /* Remove default margin */
+}
+
+.my-list li {
+  
+  color:#5c4d3b ; /* Text color */
+  font-size: 24px; /* Text size */
+  margin-left:10px;
+}
+  
+   
+.container{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+.container-img
+
+{
+	max-width:60%;
+  max-height: 60%;
+}
+.my-paragraph {
+  color: #333; /* Text color */
+  font-size: 24px; /* Text size */
+  font-family: Courier, monospace;
+  line-height:2; /* Line height */
+  margin: 10px 0; /* Margin around the paragraph */
+  padding: 0; /* Padding inside the paragraph */
+  font-weight:bold;
+ 
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:#ddd;
+  color:black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;;
+}
+
