@@ -4,6 +4,7 @@ body{
 	.box-a,.box-b,.box-c{
 	font-size:30px;
 	font-family:sans-serif;
+	font-align:center;
 	color:#fff;
 	height:100px;
 	}
