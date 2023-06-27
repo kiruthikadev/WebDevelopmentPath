@@ -1,0 +1,25 @@
+body{
+	border:1px solid green;
+	}
+	.box-a,.box-b,.box-c{
+	font-size:30px;
+	font-family:sans-serif;
+	color:#fff;
+	height:100px;
+	}
+	.box-a{
+		background-color:orange;
+		position:relative;
+		left:20px;
+	}
+	.box-b{
+		background-color:red;
+		position:relative;
+		left:40px;
+	}
+	.box-c{
+		background-color:blue;
+		position:relative;
+		left:60px;
+	}
+	
