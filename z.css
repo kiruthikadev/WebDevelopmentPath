@@ -6,16 +6,19 @@ body{
 	font-family:sans-serif;
 	color:#fff;
 	height:100px;
+	width:650px;
 	}
 	.box-a{
 		background-color:orange;
 		position:relative;
 		left:20px;
+		
 	}
 	.box-b{
 		background-color:red;
 		position:relative;
 		left:40px;
+		z-index:-3;
 	}
 	.box-c{
 		background-color:blue;
