@@ -1,12 +1,32 @@
 <html>
 <head>
 <title>Home</title>
+<style>
+    body {
+      background-image: url('images (3).jfif');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      z-index:-1;
+    }
+    
+    .content {
+      position: relative;
+      z-index: 1;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+  </style>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="sam.css">
 </head>
 <body>
 <h1>Web Developer Career Path</h1>
+<div class="content">
+    <h1>Welcome to My Website</h1>
+   
+  </div>
 <div class="topnav">
 
   <a href="index.html"><img src="images (1).jfif" height="30" width="30"</a>
@@ -43,8 +63,7 @@
   <span class="dot"></span> 
   <span class="dot"></span> 
   <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
+  
 </div>
 
 <script>
@@ -65,7 +84,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
 </script>
 <p class="round"><span class="highlight">Road Map for Front-end-Developer</span></p>
@@ -80,7 +99,5 @@ function showSlides() {
 	  <img src="web-developer-career-path-2022-cFsWj.png">
 	  </div>
 	  </body>
-      
-    
 	  
-			
+	 
